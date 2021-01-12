@@ -26,9 +26,9 @@ const anime = JSON.parse(fs.readFileSync('./src/anime.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
-            + 'FN:Syarif\n' // MENDING LU TOBAT SU!
-            + 'ORG:Owner Ririn;\n' // KASIH CREDITS GUA SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=6282351208767:+62 823-5120-8767\n' // JANGAN KEK BABI SU
+            + 'FN:Ferdi\n' // MENDING LU TOBAT SU!
+            + 'ORG:Owner F4SXD;\n' // KASIH CREDITS GUA SU!!!
+            + 'TEL;type=CELL;type=VOICE;waid=6282169369877:+62 821-6936-9877\n' // JANGAN KEK BABI SU
             + 'END:VCARD'
 prefix = '!'
 blocked = []
@@ -140,8 +140,8 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6287720646259@s.whatsapp.net"] // replace this with your number
-			const adminbotnumber = ["6287720646259@s.whatsapp.net"]
+			const ownerNumber = ["6282169369877@s.whatsapp.net"] // replace this with your number
+			const adminbotnumber = ["6282169369877@s.whatsapp.net"]
 			const frendsowner = ["6289655478810@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -217,7 +217,7 @@ async function starts() {
 								fs.unlinkSync(media)
 							})
 					} else {
-						reply('Foto aja mas')
+						reply('Foto aja bre')
 					}
 					break
 				case 'stiker':
